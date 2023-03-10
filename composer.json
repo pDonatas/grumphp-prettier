@@ -1,0 +1,30 @@
+{
+    "name": "indykoning/grumphp-prettier",
+    "description": "A Prettier task for GrumPHP.",
+    "type": "plugin",
+    "keywords": [
+        "indykoning",
+        "grumphp",
+        "quality",
+        "prettier",
+        "linter"
+    ],
+    "homepage": "https://github.com/indykoning/grumphp-prettier",
+    "license": "MIT",
+    "require": {
+        "phpro/grumphp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indykoning\\GrumPHPPrettier\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpro/grumphp": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
