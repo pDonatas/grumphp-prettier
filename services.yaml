@@ -1,0 +1,5 @@
+services:
+    prettier:
+        class: pDonatas\Prettier\PrettierTask
+        tags:
+            - { name: grumphp.task, task: prettier }

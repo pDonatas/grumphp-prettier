@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Indykoning\GrumPHPPrettier;
+namespace pDonatas\Prettier;
 
 use GrumPHP\Collection\ProcessArgumentsCollection;
 use GrumPHP\Fixer\Provider\FixableProcessResultProvider;
